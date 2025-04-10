@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="switch-container">
+      <label class="switch">
+        <input type="checkbox" id="proxySwitch">
+        <span class="slider round"></span>
+      </label>
+      <span id="statusText">代理已关闭</span>
+    </div>
+    <button id="testProxy" class="test-button">测试代理连接</button>
+    <div id="testResult" class="test-result"></div>
+    
+    <div class="proxy-settings">
+      <input type="text" id="proxyHost" placeholder="主机地址" value="127.0.0.1">
+      <input type="number" id="proxyPort" placeholder="端口" value="1080">
+    </div>
+    
+    <button id="saveSettings">保存设置</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 
