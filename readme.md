@@ -84,13 +84,6 @@
 <p>设置保存后，会显示一个绿色的成功提示，确认你的设置已经生效。</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image -->
-<figure class="wp-block-image">
-    <img src="[扩展界面截图URL]" alt="Socks5代理切换器界面"/>
-    <figcaption>Socks5代理切换器操作界面</figcaption>
-</figure>
-<!-- /wp:image -->
-
 <!-- wp:heading {"level":3} -->
 <h3>3. 测试代理连接</h3>
 <!-- /wp:heading -->
